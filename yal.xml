@@ -1,0 +1,25 @@
+<?<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE yali [
+<!ELEMENT yali (participant*)>
+<!ELEMENTparticipant(nom,prenom,age,email,sexe,numero,bp)>
+<ATTLIST participant sexe (masculin|feminin) #REQUIRED>
+<!ELEMENT pays(#PCDATA)>
+<!ELEMENT projet(#PCDATA)>
+<!ELEMENT bp(#PCDATA)>
+]>
+
+<yali>
+		<participant>
+			<nom>Yalcouyé</nom>
+			<prenom>Mariétou</prenom>
+			<age>28</age>
+			<email>marietouyalcouye@gmail.com</email>
+			<bp>03 BP 770 ABIDJAN 03</bp>
+			<sexe>Féminin</sexe>
+		</participant>
+
+		<pays>Côte d'ivoire</pays>
+		<projet>Le leadership féminin en afrique</projet>
+</yali>
+
+//Fait par YALCOUYE MARIETOU
